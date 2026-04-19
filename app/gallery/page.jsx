@@ -80,20 +80,20 @@ export default function CorporateGalleryPage() {
                       <div className="row">
                         {/* Page Title */}
                         <div className="col-md-8 offset-md-2">
-                          <h2
-                            className="section-caption-border mb-30 mb-xs-20 wow fadeInUp"
-                            data-wow-duration="1.2s"
-                          >
-                            Gallery 2 Columns
-                          </h2>
                           <h1 className="hs-title-1 mb-0">
                             <span
                               className="wow charsAnimIn"
                               data-splitting="chars"
                             >
-                              <AnimatedText text="Explore the beauty of life with art photography." />
+                              <AnimatedText text="Before & After" />
                             </span>
                           </h1>
+                          <p className="text-gray mb-0">
+                            Explore the technical precision and aesthetic transformations our team 
+                            delivers. From structural hardscape builds to comprehensive strata 
+                            restorations, see how we enhance property value through professional 
+                            stewardship and detail-driven execution.
+                          </p>
                         </div>
                         {/* End Page Title */}
                       </div>

@@ -127,14 +127,17 @@ export default function CorporateServicesPage() {
                 <div className="row position-relative">
                   <div className="col-md-6 col-lg-5 mb-md-50 mb-sm-30">
                     <h3 className="section-title mb-30">
-                      What our area of&nbsp;expertise?
+                      What is our area of&nbsp;expertise?
                     </h3>
                     <p className="text-gray mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nam pulvinar vitae neque et porttitor. Integer non dapibus
-                      diam, ac eleifend lectus. In maximus ligula semper metus
-                      pellentesque mattis. Maecenas volutpat, diam enim sagittis
-                      quam.
+                      At Savile Services Ltd, our expertise lies in the seamless integration of 
+                      horticultural mastery and structural engineering. We specialize in the 
+                      meticulous maintenance of strata and commercial landscapes, alongside 
+                      the precision construction of high-end residential hardscapes. 
+                      <br /><br />
+                      By combining field-proven systems with professional-grade equipment, we 
+                      ensure every property is managed as a high-value asset, delivering 
+                      consistent results that protect and enhance long-term property value.
                     </p>
                   </div>
                   <div className="col-md-6 offset-lg-1 pt-10 pt-sm-0">
