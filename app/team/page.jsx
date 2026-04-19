@@ -139,7 +139,7 @@ export default function CorporateTeamPage() {
                         data-wow-offset={0}
                         data-splitting="lines"
                       >
-                        Our mission is to make design simple and useful.
+                        Our mission is to deliver landscaping with precision and accountability.
                       </div>
                     </div>
                     <div
@@ -148,14 +148,9 @@ export default function CorporateTeamPage() {
                       data-splitting="lines"
                     >
                       <p className="mb-0">
-                        Lorem ipsum dolor sit amet conseur adipisci inerene
-                        maximus ligula sempe metuse pelente mattis. Maecenas
-                        volutpat, diam eni sagittis quam porta quam. Sed id
-                        dolor consectetur fermentum volutpat accumsan purus.
-                        Etiam sit amet fringilla lacus susantebe sit ullamcorper
-                        pulvinar neque porttitor. Integere lectus. Praesent sede
-                        nisi eleifend fermum orci amet, iaculis libero. Donec
-                        vel ultricies purus. Name dictum sem ipsumebe euliquam.
+                        With a deep understanding of local environmental needs and a professional perspective on property management, our team of seasoned professionals is equipped to navigate the technical complexities of large-scale strata and commercial landscapes. 
+                        <br /><br />
+                        We believe that exceptional property care isn’t just about aesthetics, it’s about asset management. By combining years of horticultural expertise with professional-grade equipment and transparent communication, we ensure your property is managed as a long-term investment. At Savile Services Ltd, we take as much pride in your grounds as you do.
                       </p>
                     </div>
                   </div>
@@ -175,7 +170,7 @@ export default function CorporateTeamPage() {
                           className="wow charsAnimIn"
                           data-splitting="chars"
                         >
-                          We're trusted by leading worldwide companies.
+                          Proven reliability for estates, strata, and commercial landscapes
                         </span>
                       </h3>
                     </div>

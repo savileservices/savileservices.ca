@@ -75,10 +75,7 @@ export default function CorporateServicesPage() {
                 <div className="row mb-70 mb-sm-50">
                   <div className="col-md-8 offset-md-2 text-center">
                     <p className="section-descr mb-0">
-                      With a deep understanding of local markets and a global
-                      perspective, our team of seasoned professionals is
-                      equipped to navigate the complexities of international
-                      marketing campaigns.
+                      With a deep understanding of local environmental needs and a professional perspective on property management, our seasoned team is equipped to navigate the technical complexities of large-scale strata and commercial landscapes.
                     </p>
                   </div>
                 </div>
@@ -96,9 +93,7 @@ export default function CorporateServicesPage() {
                       />
                     </div>
                     <p className="section-descr-medium mb-50 mb-sm-40">
-                      Looking for exclusive marketing services? Contact us and
-                      get free online consultation for your brand or your
-                      client's brand.
+                      Seeking elite landscape management? Contact us to schedule a professional on-site assessment for your property or strata complex.
                     </p>
                     <div className="local-scroll text-center">
                       <Link

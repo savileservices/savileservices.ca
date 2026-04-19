@@ -75,9 +75,7 @@ export default function CorporateContactPage() {
                 <div className="row mb-80 mb-sm-60">
                   <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
                     <p className="section-descr dark-white mb-0">
-                      We’re open to talking to good people. Just say hello, and
-                      we’ll start productive cooperation. Start your own success
-                      story.
+                      Every great landscape begins with a conversation. Tell us about your project or maintenance needs, and discover how our focus on detail can define your sanctuary.
                     </p>
                   </div>
                 </div>{" "}
