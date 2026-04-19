@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/savileservices/savileservices.ca.git
+[user]
+	name = Jay
+	email = jay.td.27@hotmail.com
+[diff]
+	guitool = vscode
+[difftool "vscode"]
+	path = C:/Program Files (x86)/Microsoft VS Code/Code.exe
+	cmd = \"C:/Program Files (x86)/Microsoft VS Code/Code.exe\" --new-window --wait --diff \"$LOCAL\" \"$REMOTE\"
+[merge]
+	guitool = vscode
+[mergetool "vscode"]
+	path = C:/Program Files (x86)/Microsoft VS Code/Code.exe
+	cmd = \"C:/Program Files (x86)/Microsoft VS Code/Code.exe\" --new-window --wait --merge \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
+[remote "main"]
+	url = https://github.com/savileservices/savileservices.ca.git
