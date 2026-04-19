@@ -1,4 +1,3 @@
-import Link from "next/link";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
 
 import React from "react";
@@ -14,10 +13,11 @@ import { corporateMultipage } from "@/data/menu";
 
 export const metadata = {
   title:
-    "Corporate Contact || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Savile Services || Project Gallery",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
 };
+
 export default function CorporateGalleryPage() {
   return (
     <>

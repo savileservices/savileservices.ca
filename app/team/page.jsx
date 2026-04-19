@@ -1,11 +1,8 @@
-import Link from "next/link";
-import ParallaxContainer from "@/components/common/ParallaxContainer";
 
 import React from "react";
 
 import { teamMembers } from "@/data/team";
 import Testimonials from "@/components/homes/home-10/Testimonials";
-import Faq from "@/components/common/Faq";
 import Brands from "@/components/homes/home-1/Brands";
 
 import AnimatedText from "@/components/common/AnimatedText";
@@ -17,10 +14,11 @@ import { corporateMultipage } from "@/data/menu";
 
 export const metadata = {
   title:
-    "Corporate Contact || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Savile Services || Meet Our Team",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
 };
+
 export default function CorporateTeamPage() {
   return (
     <>

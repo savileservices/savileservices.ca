@@ -2,7 +2,6 @@ import AnimatedText from "@/components/common/AnimatedText";
 import Footer4 from "@/components/footers/Footer4";
 import Header4 from "@/components/headers/Header4";
 
-const onePage = false;
 const dark = false;
 import Image from "next/image";
 import { corporateMultipage } from "@/data/menu";
@@ -11,13 +10,15 @@ import Service from "@/components/homes/home-4/Service";
 import AnimateButton from "@/components/common/AnimateButton";
 import { progressData } from "@/data/skills";
 import { features5 } from "@/data/features";
+import Faq from "@/components/common/Faq";
 
 export const metadata = {
   title:
-    "Corporate Services || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Savile Services || Our Services",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
 };
+
 export default function CorporateServicesPage() {
   return (
     <>
@@ -211,6 +212,21 @@ export default function CorporateServicesPage() {
               </div>
             </section>
 
+            <section className="page-section">
+              <div className="container position-relative">
+                <div className="row position-relative">
+                  <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                    <h3 className="section-title text-center mb-80 mb-sm-60">
+                      Frequently Asked Questions
+                    </h3>
+
+                    {/* <!-- Accordion --> */}
+                    <Faq />
+                    {/* <!-- End Accordion --> */}
+                  </div>
+                </div>
+              </div>
+            </section>
             <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
           </main>
           <footer className="footer-2 pb-50">

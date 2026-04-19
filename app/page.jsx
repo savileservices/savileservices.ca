@@ -6,10 +6,11 @@ import { corporateMultipage } from "@/data/menu";
 
 export const metadata = {
   title:
-    "Home 4 Main Demo MultiPage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Savile Services || Home",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
 };
+
 export default function Home4MainDemoMultiPage() {
   return (
     <>

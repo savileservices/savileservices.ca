@@ -2,21 +2,20 @@ import AnimatedText from "@/components/common/AnimatedText";
 import Footer4 from "@/components/footers/Footer4";
 import Header4 from "@/components/headers/Header4";
 
-const onePage = false;
 const dark = false;
 import Image from "next/image";
 import { corporateMultipage } from "@/data/menu";
-import Link from "next/link";
 import Contact from "@/components/homes/home-4/Contact";
 import Map from "@/components/common/Map";
 import Faq from "@/components/common/Faq";
 
 export const metadata = {
   title:
-    "Corporate Contact || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Savile Services || Contact Us",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
 };
+
 export default function CorporateContactPage() {
   return (
     <>

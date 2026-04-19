@@ -1,18 +1,16 @@
-import AnimateButton from "@/components/common/AnimateButton";
 import AnimatedText from "@/components/common/AnimatedText";
 import Footer4 from "@/components/footers/Footer4";
 import Header4 from "@/components/headers/Header4";
-const onePage = false;
-const dark = false;
 import Image from "next/image";
 import { corporateMultipage } from "@/data/menu";
-import Link from "next/link";
 import Testimonials from "@/components/homes/home-4/Testimonials";
 import { features5 } from "@/data/features";
 
 export const metadata = {
-  title: "About Us || Savile Services Ltd, Where Precision Meets the Landscape",
-  description: "Learn about Savile Services Ltd, specializing in strata maintenance, commercial landscapes, and high-end residential care.",
+  title:
+    "Savile Services || About Us",
+  description:
+    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
 };
 
 export default function CorporateAboutPage() {
