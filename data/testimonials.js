@@ -95,23 +95,23 @@ export const testimonials4 = [
   {
     id: 1,
     delay: "0s",
-    stars: 4.5,
-    text: "“Really impressed with the service and the results!”",
-    caption: "Rated 4.5 on Trustpilot",
+    stars: 5,
+    text: "“Incredible attention to detail. Our lawn edges have never looked so sharp.”",
+    caption: "Residential Client Review",
   },
   {
     id: 2,
     delay: "0.15s",
     stars: 4.5,
-    text: "“Excellent service for targeted lead generation.”",
-    caption: "Rated 4.5 on Trustpilot",
+    text: "“Reliable and proactive. They handled our strata drainage issues with real expertise.”",
+    caption: "Strata Council Review",
   },
   {
     id: 3,
     delay: "0.3s",
-    stars: 4.5,
-    text: "“I have super enjoyed working with Resonance.”",
-    caption: "Rated 4.5 on Trustpilot",
+    stars: 5,
+    text: "“Savile Services truly lives up to the precision in their name. Exceptional work.”",
+    caption: "Estate Management Review",
   },
 ];
 
@@ -119,16 +119,16 @@ export const testimonialItems = [
   {
     imageSrc: "/assets/images/demo-corporate/testimonial-1.jpg",
     quote:
-      "This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is the absolute best I've ever had the pleasure of interacting with. Quick, courteous, premium and extremely helpful!",
+      "The level of precision Savile Services brings to our strata grounds is unmatched. They don't just mow; they proactively manage our irrigation and plant health, catching issues before they become expensive repairs. Their team is professional, discreet, and consistently reliable.",
     author: "Adam Peterson",
-    position: "Marketing Consultant",
+    position: "Strata Council President",
   },
   {
     imageSrc: "/assets/images/demo-corporate/testimonial-2.jpg",
     quote:
-      "Optimization and structure are very good for SEO basics. A remarkable model, everything has been thought out with talent, the design, the various adaptations. Beautiful template, nice code and easy to customize.",
+      "Our estate's hardscape project was executed with incredible technical skill. The retaining walls and stonework are not only beautiful but engineered to last. Everything was thought out with talent—from the drainage systems to the final lighting accents. Truly premium work.",
     author: "Jordan Harvey",
-    position: "SEO/SMO Expert",
+    position: "Luxury Homeowner",
   },
 ];
 

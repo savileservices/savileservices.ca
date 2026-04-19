@@ -15,15 +15,15 @@ export default function Header4({ links }) {
           <Image
             src="/assets/images/logo/logo.png"
             alt="Your Company Logo"
-            width={3000}
-            height={2100}
+            width={200}
+            height={80}
             className="light-mode-logo"
           />
           <Image
             src="/assets/images/logo/logo.png"
             alt="Your Company Logo"
-            width={3000}
-            height={2100}
+            width={106}
+            height={80}
             className="dark-mode-logo"
           />
         </a>

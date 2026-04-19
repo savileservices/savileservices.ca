@@ -38,14 +38,11 @@ export default function Home4({ onePage = false, dark = false }) {
           <div className="row mb-70 mb-sm-50">
             <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
               <h2 className="section-title mb-40 mb-xs-30">
-                High-rated Online Marketing Agency Based in New York
+                Professional Landscapes Tailored to Your Standards
               </h2>
               <p className="section-descr dark-white mb-0">
-                Marketing is the activity, set of institutions, and processes
-                for creating, communicating, delivering, and exchanging
-                offerings that have value for customers partners, and society at
-                large. However, the definition of marketing has evolved over the
-                years.
+                Savile Services provides meticulous property stewardship across the Greater Vancouver region. We believe that true landscaping excellence is found in the details, from the structural integrity of our hardscapes to the proactive care of our strata and commercial grounds.
+                <br /><br />A well-maintained landscape is more than just an aesthetic choice; it is a significant asset that requires expert care. Our team delivers a discreet, detail-focused service designed to transform shared spaces and luxury estates into perfectly manicured sanctuaries.<br /><br />
               </p>
             </div>
           </div>
@@ -72,7 +69,7 @@ export default function Home4({ onePage = false, dark = false }) {
             ) : (
               <>
                 <Link
-                  href={`/corporate-about${dark ? "-dark" : ""}`}
+                  href={`/services`}
                   className={`btn btn-mod ${
                     dark ? "btn-dark" : "btn-w"
                   } btn-with-icon btn-circle`}
@@ -106,12 +103,12 @@ export default function Home4({ onePage = false, dark = false }) {
           <div className="row">
             <div className="col-md-7 col-lg-6 col-xl-5">
               <h2 className="section-title mb-40 mb-xs-30">
-                Get <span className="mark-decoration-5">free</span> marketing
-                consultation online
+                Experience <span className="mark-decoration-5">exceptional</span> 
+                landscape care
               </h2>
               <p className="section-descr mb-50 mb-sm-40">
-                Contact us and get free marketing consultation for your
-                business.
+                Contact our specialists to begin a tailored maintenance roadmap 
+                designed for your property's long-term health.
               </p>
               <div className="local-scroll mb-70 mb-sm-50">
                 {onePage ? (
@@ -151,11 +148,10 @@ export default function Home4({ onePage = false, dark = false }) {
           <div className="row mb-70 mb-sm-50">
             <div className="col-md-8 offset-md-2 text-center">
               <h2 className="section-title mb-40 mb-xs-30">
-                Providing the Best Marketing Solutions for Our Clients
+                Precision-Driven Results for Every Property
               </h2>
               <p className="section-descr mb-0">
-                The marketing mix represents the basic tools that marketers can
-                use to bring their products or services to the market.
+                Whether managing complex strata requirements or constructing custom stonework, Savile Services delivers a level of detail that transforms landscapes into lasting sanctuaries.
               </p>
             </div>
           </div>
@@ -175,8 +171,7 @@ export default function Home4({ onePage = false, dark = false }) {
                 />
               </div>
               <p className="section-descr-medium mb-50 mb-sm-40">
-                Looking for exclusive marketing services? Contact us and get
-                free online consultation for your brand or your client's brand.
+                Seeking elite landscape management? Contact us to schedule a professional on-site assessment for your property or strata complex.
               </p>
               <div className="local-scroll text-center">
                 {onePage ? (
@@ -228,52 +223,6 @@ export default function Home4({ onePage = false, dark = false }) {
         </div>
       </section>
       <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
-        id="portfolio"
-      >
-        <div className="container position-relative">
-          <Portfolio />
-          {/* End Portfolio Grid */}
-          <div className="local-scroll text-center">
-            {onePage ? (
-              <>
-                <a
-                  href="#clients-stories"
-                  className={`btn btn-mod ${
-                    dark ? "btn-dark" : "btn-w"
-                  } btn-with-icon btn-circle`}
-                >
-                  <span className="btn-icon color-3">
-                    <i className="mi-link-alt" />
-                  </span>
-                  <span data-btn-animate="y">
-                    <AnimateButton text={"Read Clients Stories"} />
-                  </span>
-                </a>
-              </>
-            ) : (
-              <>
-                <Link
-                  href={`/corporate-portfolio${dark ? "-dark" : ""}`}
-                  className={`btn btn-mod ${
-                    dark ? "btn-dark" : "btn-w"
-                  } btn-with-icon btn-circle`}
-                >
-                  <span className="btn-icon color-3">
-                    <i className="mi-link-alt" />
-                  </span>
-                  <span data-btn-animate="y">
-                    <AnimateButton text={"Read All Case Studies"} />
-                  </span>
-                </Link>
-              </>
-            )}
-          </div>
-        </div>
-      </section>
-      <section
         className="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content"
         style={{
           backgroundImage:
@@ -289,117 +238,6 @@ export default function Home4({ onePage = false, dark = false }) {
         id="clients-stories"
       >
         <Testimonials />
-      </section>
-      <section
-        className="page-section bg-scroll light-content"
-        style={{
-          backgroundImage:
-            "url(/assets/images/demo-corporate/section-bg-3.jpg)",
-        }}
-      >
-        {/* Desktop Overlay */}
-        <div className="bg-overlay bg-gradient-primary-alpha-2 d-none d-md-block" />
-        {/* End Desktop Overlay */}
-        {/* Mobile Overlay */}
-        <div className="bg-overlay bg-primary-1 opacity-09 d-md-none" />
-        {/* End Mobile Overlay */}
-        <div className="container position-relative">
-          <div className="row">
-            <div className="col-md-7 offset-md-5 col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
-              <h2 className="section-title mb-40 mb-xs-30">
-                Marketing <span className="mark-decoration-5">Jumpstart</span>{" "}
-                for Your Business
-              </h2>
-              <p className="section-descr mb-50 mb-sm-40">
-                The marketing audit is generally conducted by a third person,
-                not a member of an organization.
-              </p>
-              <div className="local-scroll mb-70 mb-sm-50">
-                {onePage ? (
-                  <>
-                    {" "}
-                    <a
-                      href="/contact"
-                      className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
-                    >
-                      <span>Get a Consultation</span>
-                    </a>
-                  </>
-                ) : (
-                  <>
-                    {" "}
-                    <Link
-                      href={`/contact`}
-                      className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
-                    >
-                      <span>Get a Consultation</span>
-                    </Link>
-                  </>
-                )}
-              </div>
-              {/* Features List */}
-              <Cta2 />
-              {/* End Features List */}
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
-        id="blog"
-      >
-        <div className="container position-relative">
-          <div className="row">
-            <div className="col-lg-5 col-xl-4 mb-md-70 mb-sm-50">
-              <h2 className="section-title mb-40 mb-xs-30">Our Blog</h2>
-              <p className="section-descr dark-white mb-50 mb-sm-40">
-                Check the best marketing resources and the latest news about our
-                company.
-              </p>
-              <div className="local-scroll">
-                <Link
-                  href={`/corporate-blog-dark`}
-                  className={`btn btn-mod  ${
-                    dark ? "btn-dark" : "btn-w"
-                  }  btn-with-icon btn-circle`}
-                >
-                  <span className="btn-icon color-3">
-                    <i className="mi-link-alt" aria-hidden="true"></i>
-                  </span>
-                  <span data-btn-animate="y">
-                    <span className="btn-animate-y">
-                      <span className="btn-animate-y-1">
-                        Read All Articles{" "}
-                        <i className="mi-arrow-right" aria-hidden="true"></i>
-                      </span>
-                      <span className="btn-animate-y-2" aria-hidden="true">
-                        Read All Articles{" "}
-                        <i className="mi-arrow-right" aria-hidden="true"></i>
-                      </span>
-                    </span>
-                  </span>
-                </Link>
-              </div>
-            </div>{" "}
-            <Blog />
-          </div>
-        </div>
-      </section>
-      <section className="container">
-        <div
-          className={`page-section px-4 px-md-0 ${
-            dark
-              ? "bg-dark-2 border-dark light-content"
-              : "bg-gradient-primary-light-1"
-          }  round`}
-        >
-          {dark && (
-            <div className="position-absolute top-0 start-0 bottom-0 end-0 bg-gradient-primary-dark-1 opacity-01"></div>
-          )}
-          <NewsLetter />
-        </div>
       </section>
       <section
         className={`page-section  scrollSpysection  ${
@@ -423,8 +261,7 @@ export default function Home4({ onePage = false, dark = false }) {
                 Let’s have a conversation
               </h2>
               <p className="section-descr dark-white mb-0">
-                We’re open to talking to good people. Just say hello, and we’ll
-                start productive cooperation. Start your own success story.
+                Every great landscape begins with a conversation. Tell us about your project or maintenance needs, and discover how our focus on detail can define your sanctuary.
               </p>
             </div>
           </div>{" "}

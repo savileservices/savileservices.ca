@@ -93,61 +93,88 @@ export default function Hero1() {
                   animationName: "fadeIn",
                 }}
               >
+                {/* Service 1: Strata & Commercial */}
                 <div className="mt-10">
                   <a
                     href="#services"
                     className="btn btn-mod btn-w btn-with-icon btn-circle"
                   >
                     <span className="btn-icon color-3">
-                      <i className="mi-user" aria-hidden="true" />
+                      <i className="mi-home" aria-hidden="true" />
                     </span>
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Marketing Consulting
+                          Strata Maintenance
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Marketing Consulting
+                          Strata Maintenance
                         </span>
                       </span>
                     </span>
                   </a>
                 </div>
+
+                {/* Service 2: Commercial Maintenance */}
                 <div className="mt-10">
                   <a
                     href="#services"
                     className="btn btn-mod btn-w btn-with-icon btn-circle"
                   >
                     <span className="btn-icon color-2">
-                      <i className="mi-search" aria-hidden="true" />
+                      <i className="mi-layout" aria-hidden="true" />
                     </span>
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Search Engine Optimization
+                          Commercial Maintenance
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Search Engine Optimization
+                          Commercial Maintenance
                         </span>
                       </span>
                     </span>
                   </a>
                 </div>
+
+                {/* Service 3: High-End Residential */}
+                <div className="mt-10">
+                  <a
+                    href="#services"
+                    className="btn btn-mod btn-w btn-with-icon btn-circle"
+                  >
+                    <span className="btn-icon color-1">
+                      <i className="mi-circle" aria-hidden="true" />
+                    </span>
+                    <span data-btn-animate="y">
+                      <span className="btn-animate-y">
+                        <span className="btn-animate-y-1">
+                          Hardscape Projects
+                        </span>
+                        <span className="btn-animate-y-2" aria-hidden="true">
+                          Hardscape Projects
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+
+                {/* Service 4: Hardscape Projects */}
                 <div className="mt-10">
                   <a
                     href="#services"
                     className="btn btn-mod btn-w btn-with-icon btn-circle"
                   >
                     <span className="btn-icon color-4">
-                      <i className="mi-message" aria-hidden="true" />
+                      <i className="mi-add" aria-hidden="true" />
                     </span>
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Social Media Marketing
+                          Hardscape Projects
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Social Media Marketing
+                          Hardscape Projects
                         </span>
                       </span>
                     </span>
