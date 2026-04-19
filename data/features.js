@@ -72,9 +72,9 @@ export const qualities = [
 ];
 
 export const features = [
-  { id: 1, text: "No credit card required" },
-  { id: 2, text: "Free 30 minute consultation" },
-  { id: 3, text: "Free marketing report" },
+  { id: 1, text: "Fully Licensed & Insured" },
+  { id: 2, text: "Free On-Site Precision Estimate" },
+  { id: 3, text: "Custom Landscape Maintenance Plan" },
 ];
 
 export const features2 = [

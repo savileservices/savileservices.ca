@@ -152,14 +152,14 @@ export default function Home1({ onePage = false, dark = false }) {
                     href="#contact"
                     className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                   >
-                    <span>Request Price</span>
+                    <span>Get a Quote</span>
                   </a>
                 ) : (
                   <Link
                     href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                     className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                   >
-                    <span>Request Price</span>
+                    <span>Get a Quote</span>
                   </Link>
                 )}
               </div>

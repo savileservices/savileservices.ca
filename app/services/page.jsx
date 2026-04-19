@@ -59,7 +59,7 @@ export default function CorporateServicesPage() {
                       className="hs-descr mb-0 wow fadeIn"
                       data-wow-delay="0.2s"
                     >
-                      Online marketing that leaves an impression.
+                      Comprehensive services designed for lasting beauty.
                     </p>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ export default function CorporateServicesPage() {
                     </p>
                     <div className="local-scroll text-center">
                       <Link
-                        href={`/corporate-contact${dark ? "-dark" : ""}`}
+                        href={`/contact`}
                         className={`btn btn-mod ${
                           dark ? "btn-dark" : "btn-w"
                         } btn-with-icon btn-circle`}
@@ -111,7 +111,7 @@ export default function CorporateServicesPage() {
                           <i className="mi-heart" />
                         </span>
                         <span data-btn-animate="y">
-                          <AnimateButton text={"Request Price"} />
+                          <AnimateButton text={"Get a Quote"} />
                         </span>
                       </Link>
                     </div>
@@ -165,7 +165,7 @@ export default function CorporateServicesPage() {
                 <div className="row mb-50 mb-sm-50">
                   <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 text-center">
                     <h2 className="section-title-small mb-20">
-                      Why choose Resonance?
+                      Why choose Savile Services?
                     </h2>
                     <p className="text-gray mb-0">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,

@@ -58,7 +58,7 @@ export default function CorporateGalleryPage() {
                       className="hs-descr mb-0 wow fadeIn"
                       data-wow-delay="0.2s"
                     >
-                      Reach out and let's bring your vision to life.
+                      Seeing is believing when it comes to meticulous landscaping.
                     </p>
                   </div>
                 </div>
@@ -115,47 +115,6 @@ export default function CorporateGalleryPage() {
               </>
 
               {/* End Divider */}
-              {/* Call Action Section */}
-              <section className="page-section">
-                <div className="container position-relative">
-                  {/* Decorative Waves */}
-                  <div className="position-relative">
-                    <div
-                      className="decoration-21 d-none d-lg-block"
-                      data-rellax-y=""
-                      data-rellax-speed="0.7"
-                      data-rellax-percentage="0.5"
-                    >
-                      <Image
-                        src="/assets/images/decoration-3.svg"
-                        className="svg-shape"
-                        width={148}
-                        height={148}
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  {/* End Decorative Waves */}
-                  <div className="row wow fadeInUp">
-                    <div className="col-md-6 offset-md-1 col-lg-5 offset-lg-2 text-md-start mb-sm-30">
-                      <p className="section-descr mb-0">
-                        Looking for exclusive digital services? Contact us, and
-                        we'll start productive cooperation.
-                      </p>
-                    </div>
-                    <div className="col-md-4 col-lg-3 text-md-end">
-                      <div className="local-scroll">
-                        <Link
-                          href={`/main-pages-contact-1`}
-                          className="btn btn-mod btn-large btn-round btn-hover-anim"
-                        >
-                          <span>Contact us</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
             </>
           </main>
           <footer className="footer-2 pb-50">

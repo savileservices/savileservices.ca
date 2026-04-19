@@ -29,7 +29,7 @@ export default function Hero4({ dark }) {
               >
                 <div className="local-scroll mb-60 mb-sm-50">
                   <a
-                    href="#contact"
+                    href="/contact"
                     className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
                   >
                     <span>Get a Consultation</span>

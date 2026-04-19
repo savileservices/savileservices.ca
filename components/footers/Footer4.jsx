@@ -31,11 +31,11 @@ export default function Footer4() {
         <div className="row">
           <div className="col-lg-6 mb-md-60">
             <h2 className="section-title mb-60 mb-sm-40">
-              Ready to get started with Resonance Template?
+              Transform your view today.
             </h2>
             <div className="local-scroll">
               <a
-                href="#contact"
+                href="/contact"
                 className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
               >
                 <span>Get a Consultation</span>
@@ -69,7 +69,7 @@ export default function Footer4() {
       {/* Footer Text */}
       <div className="row">
         <div className="col-md-6 mb-sm-40">
-          Made with love for great people. <br />© Savile Services{" "}
+          Where Precision Meets the Landscape <br />© Savile Services{" "}
           {new Date().getFullYear()}.
         </div>
         {/* Social Links */}

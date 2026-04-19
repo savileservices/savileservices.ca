@@ -117,7 +117,7 @@ export default function Home4({ onePage = false, dark = false }) {
                 {onePage ? (
                   <>
                     <a
-                      href="#contact"
+                      href="/contact"
                       className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
                     >
                       <span>Get a Consultation</span>
@@ -126,7 +126,7 @@ export default function Home4({ onePage = false, dark = false }) {
                 ) : (
                   <>
                     <Link
-                      href={`/corporate-contact${dark ? "-dark" : ""}`}
+                      href={`/contact`}
                       className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
                     >
                       <span>Get a Consultation</span>
@@ -319,7 +319,7 @@ export default function Home4({ onePage = false, dark = false }) {
                   <>
                     {" "}
                     <a
-                      href="#contact"
+                      href="/contact"
                       className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
                     >
                       <span>Get a Consultation</span>
@@ -329,7 +329,7 @@ export default function Home4({ onePage = false, dark = false }) {
                   <>
                     {" "}
                     <Link
-                      href={`/corporate-contact${dark ? "-dark" : ""}`}
+                      href={`/contact`}
                       className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
                     >
                       <span>Get a Consultation</span>

@@ -31,7 +31,7 @@ export default function Hero2() {
                 data-wow-delay="0.4s"
               >
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
                 >
                   <span>Get a Consultation</span>

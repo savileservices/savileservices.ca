@@ -61,50 +61,13 @@ export default function CorporateTeamPage() {
                       className="hs-descr mb-0 wow fadeIn"
                       data-wow-delay="0.2s"
                     >
-                      Reach out and let's bring your vision to life.
+                      The people and philosophy behind the precision.
                     </p>
                   </div>
                 </div>
               </div>
             </section>
             <section className="page-section pt-0 pb-0" id="home">
-              <ParallaxContainer
-                className="page-section bg-gray-light-1 bg-light-alpha-90 parallax-5"
-                style={{
-                  backgroundImage:
-                    "url(/assets/images/full-width-images/page-title-bg-2.jpg)",
-                }}
-              >
-                <>
-                  <div className="position-absolute top-0 bottom-0 start-0 end-0 bg-gradient-white" />
-                  <div className="container position-relative pt-50">
-                    {/* Section Content */}
-                    <div className="text-center">
-                      <div className="row">
-                        {/* Page Title */}
-                        <div className="col-md-8 offset-md-2">
-                          <h2
-                            className="section-caption-border mb-30 mb-xs-20 wow fadeInUp"
-                            data-wow-duration="1.2s"
-                          >
-                            Our Team
-                          </h2>
-                          <h1 className="hs-title-1 mb-0">
-                            <span
-                              className="wow charsAnimIn"
-                              data-splitting="chars"
-                            >
-                              <AnimatedText text="Extraordinary creative team. Minimalism lovers." />
-                            </span>
-                          </h1>
-                        </div>
-                        {/* End Page Title */}
-                      </div>
-                    </div>
-                    {/* End Section Content */}
-                  </div>
-                </>
-              </ParallaxContainer>
             </section>
             <>
               <section className="page-section pt-0" id="team">
@@ -231,75 +194,10 @@ export default function CorporateTeamPage() {
               {/* Divider */}
               <hr className="mt-0 mb-0" />
               {/* End Divider */}
-              {/* FAQ Section */}
-              <section className="page-section z-index-1">
-                <div className="container position-relative">
-                  <div className="row position-relative">
-                    <div className="col-md-6 col-lg-5 mb-md-50 mb-sm-30">
-                      <h3 className="section-title mb-30">
-                        Frequently Asked Questions
-                      </h3>
-                      <p className="text-gray mb-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nam pulvinar vitae neque et porttitor. Integer non
-                        dapibus diam, ac eleifend lectus. In maximus ligula
-                        semper metus pellentesque mattis. Maecenas volutpat,
-                        diam enim sagittis quam.
-                      </p>
-                    </div>
-                    <div className="col-md-6 offset-lg-1 pt-10 pt-sm-0">
-                      {/* Accordion */}
-                      <Faq />
-                      {/* End Accordion */}
-                    </div>
-                  </div>
-                </div>
-              </section>
-              {/* End FAQ Section */}
               {/* Divider */}
               <hr className="mt-0 mb-0" />
               {/* End Divider */}
               {/* Call Action Section */}
-              <section className="page-section">
-                <div className="container position-relative">
-                  {/* Decorative Waves */}
-                  <div className="position-relative">
-                    <div
-                      className="decoration-21 d-none d-lg-block"
-                      data-rellax-y=""
-                      data-rellax-speed="0.7"
-                      data-rellax-percentage="0.5"
-                    >
-                      <Image
-                        src="/assets/images/decoration-3.svg"
-                        className="svg-shape"
-                        width={148}
-                        height={148}
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  {/* End Decorative Waves */}
-                  <div className="row wow fadeInUp">
-                    <div className="col-md-6 offset-md-1 col-lg-5 offset-lg-2 text-md-start mb-sm-30">
-                      <p className="section-descr mb-0">
-                        Looking for exclusive digital services? Contact us, and
-                        we'll start productive cooperation.
-                      </p>
-                    </div>
-                    <div className="col-md-4 col-lg-3 text-md-end">
-                      <div className="local-scroll">
-                        <Link
-                          href={`/main-pages-contact-1`}
-                          className="btn btn-mod btn-large btn-round btn-hover-anim"
-                        >
-                          <span>Contact us</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
             </>
           </main>
           <footer className="footer-2 pb-50">

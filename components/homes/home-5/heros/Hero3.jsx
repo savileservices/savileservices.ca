@@ -98,7 +98,7 @@ export default function Hero3({ dark }) {
               >
                 <div className="local-scroll mb-60 mb-sm-50">
                   <a
-                    href="#contact"
+                    href="/contact"
                     className={`btn btn-mod ${
                       dark ? "btn-w" : ""
                     } btn-large btn-circle btn-hover-anim`}

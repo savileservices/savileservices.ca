@@ -59,7 +59,7 @@ export default function CorporateAboutPage() {
                       className="hs-descr mb-0 wow fadeIn"
                       data-wow-delay="0.2s"
                     >
-                      Crafting immersive digital journeys for brands.
+                      Where Precision Meets the Landscape
                     </p>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ export default function CorporateAboutPage() {
                 {/* End Testimonials Grid */}
                 <div className="local-scroll text-center">
                   <Link
-                    href={`/corporate-about${dark ? "-dark" : ""}`}
+                    href={`/services`}
                     className={`btn btn-mod ${
                       dark ? "btn-dark" : "btn-w"
                     } btn-with-icon btn-circle`}
@@ -140,7 +140,7 @@ export default function CorporateAboutPage() {
                     </p>
                     <div className="local-scroll mb-70 mb-sm-50">
                       <Link
-                        href={`/corporate-contact${dark ? "-dark" : ""}`}
+                        href={`/contact`}
                         className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
                       >
                         <span>Get a Consultation</span>
@@ -167,7 +167,7 @@ export default function CorporateAboutPage() {
                         Primary Benefits
                       </h2>
                       <h3 className="section-title-small mb-40">
-                        Why choose Resonance?
+                        Why choose Savile Services?
                       </h3>
                       <div className="section-line" />
                     </div>

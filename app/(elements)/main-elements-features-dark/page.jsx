@@ -262,7 +262,7 @@ export default function ElementPageFeaturesDark() {
                             Benefits
                           </h2>
                           <h3 className="section-title mb-30">
-                            Why choose Resonance?
+                            Why choose Savile Services?
                           </h3>
                           <p className="section-descr mb-50 mb-sm-30">
                             A static website stores a unique file for every page
@@ -666,7 +666,7 @@ export default function ElementPageFeaturesDark() {
                           Primary Benefits
                         </h2>
                         <h3 className="section-title-small mb-40">
-                          Why choose Resonance?
+                          Why choose Savile Services?
                         </h3>
                         <div className="section-line" />
                       </div>

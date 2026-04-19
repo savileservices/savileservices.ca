@@ -46,7 +46,7 @@ export default function Footer5() {
           .
         </div>
         {/* End Copyright */}
-        <div className="footer-made">Made with love for great people.</div>
+        <div className="footer-made">Where Precision Meets the Landscape</div>
       </div>
       {/* End Footer Text */}
     </div>

@@ -10,14 +10,15 @@ export default function Hero1() {
           <div className="col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-center order-first order-lg-last mb-md-60">
             <div className="w-100 text-center text-lg-start">
               <h1 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp">
-                Global Marketing Consulting Agency
+                Precision Landscaping<br /> Built to Last
               </h1>
               <p
                 className="hs-descr mb-50 mb-sm-40 wow fadeInUp"
                 data-wow-delay="0.15s"
               >
-                We’re a global marketing company delivering innovative solutions
-                to our clients.
+                We don’t just maintain properties, we protect their value, elevate their appearance, and set a higher standard for grounds care.
+                <br /><br />
+                From strata communities to luxury estates and commercial properties, we deliver consistent, detail-driven maintenance and expertly built hardscapes, all backed by a team that takes pride in every square foot.
               </p>
               <div
                 className="wow fadeInUp wch-unset"
@@ -26,7 +27,7 @@ export default function Hero1() {
               >
                 <div className="local-scroll mb-60 mb-sm-50">
                   <a
-                    href="#contact"
+                    href="/contact"
                     className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
                   >
                     <span>Get a Consultation</span>
