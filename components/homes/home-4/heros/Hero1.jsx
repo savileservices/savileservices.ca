@@ -10,7 +10,7 @@ export default function Hero1() {
           <div className="col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-center order-first order-lg-last mb-md-60">
             <div className="w-100 text-center text-lg-start">
               <h1 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp">
-                Precision Landscaping<br /> Built to Last
+                A Landscape Management Company
               </h1>
               <p
                 className="hs-descr mb-50 mb-sm-40 wow fadeInUp"
@@ -18,7 +18,7 @@ export default function Hero1() {
               >
                 We don’t just maintain properties, we protect their value, elevate their appearance, and set a higher standard for grounds care.
                 <br /><br />
-                From strata communities to luxury estates and commercial properties, we deliver consistent, detail-driven maintenance and expertly built hardscapes, all backed by a team that takes pride in every square foot.
+                From strata communities to residential properties and commercial spaces, we deliver consistent, detail-driven maintenance and expertly built hardscapes, all backed by a team that takes pride in every square foot.
               </p>
               <div
                 className="wow fadeInUp wch-unset"
@@ -115,7 +115,29 @@ export default function Hero1() {
                   </a>
                 </div>
 
-                {/* Service 2: Commercial Maintenance */}
+                {/* Service 2: Residential Maintenance */}
+                <div className="mt-10">
+                  <a
+                    href="#services"
+                    className="btn btn-mod btn-w btn-with-icon btn-circle"
+                  >
+                    <span className="btn-icon color-1">
+                      <i className="mi-circle" aria-hidden="true" />
+                    </span>
+                    <span data-btn-animate="y">
+                      <span className="btn-animate-y">
+                        <span className="btn-animate-y-1">
+                          Residential Maintenance
+                        </span>
+                        <span className="btn-animate-y-2" aria-hidden="true">
+                          Residential Maintenance
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+
+                {/* Service 3: Commercial Maintenance */}
                 <div className="mt-10">
                   <a
                     href="#services"
@@ -131,28 +153,6 @@ export default function Hero1() {
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
                           Commercial Maintenance
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-
-                {/* Service 3: High-End Residential */}
-                <div className="mt-10">
-                  <a
-                    href="#services"
-                    className="btn btn-mod btn-w btn-with-icon btn-circle"
-                  >
-                    <span className="btn-icon color-1">
-                      <i className="mi-circle" aria-hidden="true" />
-                    </span>
-                    <span data-btn-animate="y">
-                      <span className="btn-animate-y">
-                        <span className="btn-animate-y-1">
-                          Hardscape Projects
-                        </span>
-                        <span className="btn-animate-y-2" aria-hidden="true">
-                          Hardscape Projects
                         </span>
                       </span>
                     </span>

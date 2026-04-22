@@ -60,7 +60,7 @@ export default function CorporateAboutPage() {
                 <div className="row mb-70 mb-sm-50">
                   <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
                     <p className="section-descr dark-white mb-0">
-                      At Savile Services Ltd, we believe exceptional landscapes don’t happen by accident, they’re built through precision, consistency, and a commitment to doing things the right way. 
+                      At Savile Services Ltd, we believe exceptional landscapes don’t happen by accident, they’re built through detailed planning, clear communication with clients, meticulous execution, consistency, and a commitment to doing things the right way. 
                       We specialize in managing large-scale communities and crafting detailed outdoor spaces with unmatched care.
                     </p>
                   </div>
@@ -84,20 +84,20 @@ export default function CorporateAboutPage() {
                     </p>
                     <div className="row">
                       <div className="col-sm-6 mb-40">
-                        <h4 className="alt-features-title">Consistent Execution</h4>
-                        <p className="alt-features-descr">We focus on reliable, high-standard performance every visit, not just one-time results.</p>
+                        <h4 className="alt-features-title">Individualized Landscape Management Plans</h4>
+                        <p className="alt-features-descr">We create customized plans tailored to the unique needs of each property.</p>
                       </div>
                       <div className="col-sm-6 mb-40">
-                        <h4 className="alt-features-title">Proactive Maintenance</h4>
-                        <p className="alt-features-descr">Our systems are designed to identify and prevent issues before they arise.</p>
+                        <h4 className="alt-features-title">Clear Communication</h4>
+                        <p className="alt-features-descr">Our team maintains open lines of communication with clients to ensure all needs are met.</p>
                       </div>
                       <div className="col-sm-6 mb-40">
-                        <h4 className="alt-features-title">Professional Presentation</h4>
-                        <p className="alt-features-descr">From our team to your turf, we maintain a clean, professional appearance at all times.</p>
+                        <h4 className="alt-features-title">Consistent and Meticulous Execution</h4>
+                        <p className="alt-features-descr">We prioritize attention to detail and a thorough approach in every task.</p>
                       </div>
                       <div className="col-sm-6 mb-40">
-                        <h4 className="alt-features-title">Long-Term Value</h4>
-                        <p className="alt-features-descr">We prioritize sustainable property health over quick, short-term fixes.</p>
+                        <h4 className="alt-features-title">On-going site monitoring and recommendations</h4>
+                        <p className="alt-features-descr">We provide continuous assessments and tailored advice to enhance your landscape's health and aesthetics.</p>
                       </div>
                     </div>
                   </div>
@@ -118,9 +118,8 @@ export default function CorporateAboutPage() {
                       Our team brings years of hands-on experience across the specialized sectors of the landscaping industry:
                     </p>
                     <ul className="list-unstyled">
-                      <li className="d-flex mb-3"><i className="mi-check color-3 me-3" /> Strata and commercial landscape maintenance</li>
-                      <li className="d-flex mb-3"><i className="mi-check color-3 me-3" /> High-end residential property care</li>
-                      <li className="d-flex mb-5"><i className="mi-check color-3 me-3" /> Interlocking stone, retaining walls, and custom hardscape builds</li>
+                      <li className="d-flex mb-3"><i className="mi-check color-3 me-3" /> Strata, Residential and Commercial Landscape Maintenance</li>
+                      <li className="d-flex mb-5"><i className="mi-check color-3 me-3" /> Custom hardscape builds</li>
                     </ul>
                     <p className="section-descr mb-0">
                       We combine practical field knowledge with proven systems to ensure every job is completed efficiently and to a high standard.
@@ -137,11 +136,11 @@ export default function CorporateAboutPage() {
                   <div className="col-lg-8">
                     <h2 className="section-title-small mb-40">Our Commitment</h2>
                     <p className="lead mb-40">
-                      We communicate clearly, show up when we say we will, and stand behind our work.
+                      To communicate, to follow the system, to be consistent and detailed.
                       <br />
-                      No shortcuts. No guesswork. No inconsistency.
+                      No shortcuts. No guesswork.
                     </p>
-                    <p className="hs-descr mb-10">Just reliable service, delivered with precision.</p>
+                    <p className="hs-descr mb-10">Just reliable service with guarantees.</p>
                   </div>
                 </div>
               </div>

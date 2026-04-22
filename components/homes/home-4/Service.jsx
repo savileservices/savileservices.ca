@@ -4,7 +4,10 @@ const ServiceItem = ({
   iconColorClass,
   path,
   title,
-  text,
+  text1,
+  text2,
+  text3,
+  text4,
   categories,
   delay,
 }) => (
@@ -26,7 +29,12 @@ const ServiceItem = ({
         </svg>
       </div>
       <h3 className="services-8-title">{title}</h3>
-      <p className="services-8-text">{text}</p>
+        <ul>
+          <li>{text1}</li>
+          <li>{text2}</li>
+          <li>{text3}</li>
+          <li>{text4}</li>
+        </ul>
       {categories.map((category, index) => (
         <div key={index} className="pb-1">
           <div className="services-8-category">{category}</div>

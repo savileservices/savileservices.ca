@@ -637,6 +637,7 @@ export default function ElementPageFeatures() {
                     {/* Text */}
                     <div className="col-md-12 col-lg-3 mb-md-50">
                       <h2 className="section-caption mb-xs-10">
+                        Primary Benefits
                       </h2>
                       <h3 className="section-title-small mb-40">
                         Why choose Resonance?

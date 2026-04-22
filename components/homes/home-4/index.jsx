@@ -41,8 +41,8 @@ export default function Home4({ onePage = false, dark = false }) {
                 Professional Landscapes Tailored to Your Standards
               </h2>
               <p className="section-descr dark-white mb-0">
-                Savile Services provides meticulous property stewardship across the Greater Vancouver region. We believe that true landscaping excellence is found in the details, from the structural integrity of our hardscapes to the proactive care of our strata and commercial grounds.
-                <br /><br />A well-maintained landscape is more than just an aesthetic choice; it is a significant asset that requires expert care. Our team delivers a discreet, detail-focused service designed to transform shared spaces and luxury estates into perfectly manicured sanctuaries.<br /><br />
+                Savile Services provides meticulous landscape service across the Greater Vancouver region. We believe that true landscaping excellence is found in the details, from the structural integrity of our hardscapes to the proactive care of our strata and commercial grounds through detailed landscape plan.
+                <br /><br />A well-maintained landscape is more than just an aesthetic choice; it is a significant asset that requires expert care and great communication. Our team delivers a discreet, detail-focused service designed to transform shared spaces and residential estates into perfectly manicured sanctuaries.<br /><br />
               </p>
             </div>
           </div>

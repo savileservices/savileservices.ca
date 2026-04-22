@@ -167,9 +167,7 @@ export default function CorporateServicesPage() {
                       Why choose Savile Services?
                     </h2>
                     <p className="text-gray mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      We don’t just maintain properties, we protect their value, elevate their appearance, and set a higher standard for grounds care. From strata communities to residential properties and commercial spaces, we deliver consistent, detail-driven maintenance and expertly built hardscapes, all backed by a team that takes pride in every square foot.
                     </p>
                   </div>
                 </div>
