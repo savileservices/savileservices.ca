@@ -73,7 +73,7 @@ export default function Hero1() {
               {/* Main Image */}
               <div className="composition-8-image bg-white">
                 <Image
-                  src="/assets/images/hero/cover.jpg"
+                  src="/assets/images/hero/cover.png"
                   width={706}
                   height={800}
                   alt="Image Description"
