@@ -1,45 +1,30 @@
 export const teamMembers = [
   {
-    name: "Thomas Johnson",
-    role: "Developer, co-founder",
-    image: "/assets/images/team/team-1.jpg",
-    socials: [
-      { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
-      { platform: "Twitter", icon: "fa-twitter", url: "#" },
-      { platform: "Pinterest", icon: "fa-pinterest-p", url: "#" },
-    ],
+    name: "Mihir Doshi",
+    role: "Founder & President",
+    image: "/assets/images/team/mihir-doshi.jpg",
+    socials: [],
   },
   {
-    name: "Emma Johnson",
-    role: "UI/UX Designer, co-founder",
-    image: "/assets/images/team/team-2.jpg",
-    socials: [
-      { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
-      { platform: "Twitter", icon: "fa-twitter", url: "#" },
-      { platform: "Pinterest", icon: "fa-pinterest-p", url: "#" },
-    ],
+    name: "Paul Davis",
+    role: "Operations Manager",
+    image: "/assets/images/team/paul-davis.jpg",
+    socials: [],
   },
   {
-    name: "Marta Laning",
-    role: "Web developer",
-    image: "/assets/images/team/team-4.jpg",
-    socials: [
-      { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
-      { platform: "Twitter", icon: "fa-twitter", url: "#" },
-      { platform: "Pinterest", icon: "fa-pinterest-p", url: "#" },
-    ],
+    name: "Jack Anderson",
+    role: "Lead Landscape Designer",
+    image: "/assets/images/team/jack-anderson.jpg",
+    socials: [],
   },
   {
-    name: "Marta Laning",
-    role: "Art director, designer",
-    image: "/assets/images/team/team-3.jpg",
-    socials: [
-      { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
-      { platform: "Twitter", icon: "fa-twitter", url: "#" },
-      { platform: "Pinterest", icon: "fa-pinterest-p", url: "#" },
-    ],
+    name: "Carlos Ramirez",
+    role: "Field Supervisor & Maintenance Lead",
+    image: "/assets/images/team/carlos-ramirez.jpg",
+    socials: [],
   },
 ];
+
 export const teamMembers2 = [
   {
     name: "Thomas Johnson",

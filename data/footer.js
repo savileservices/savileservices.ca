@@ -30,21 +30,9 @@ export const socialLinks = [
 ];
 
 export const socialMediaLinks = [
-  {
-    href: "#",
-    title: "Facebook",
-    iconClass: "fa-facebook-f",
-    name: "Facebook",
-  },
-  { href: "#", title: "Skype", iconClass: "fa-skype", name: "Skype" },
-  {
-    href: "#",
-    title: "Pinterest",
-    iconClass: "fa-pinterest",
-    name: "Pinterest",
-  },
-  { href: "#", title: "Behance", iconClass: "fa-behance", name: "Behance" },
-  { href: "#", title: "Dribbble", iconClass: "fa-dribbble", name: "Dribbble" },
+  { href: "#", title: "Google", iconClass: "fa-google", name: "Google" },
+  { href: "#", title: "Instagram", iconClass: "fa-instagram", name: "Instagram" },
+  { href: "#", title: "Yelp", iconClass: "fa-yelp", name: "Yelp" },
 ];
 
 export const navigationLinks = [

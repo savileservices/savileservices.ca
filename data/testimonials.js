@@ -116,14 +116,14 @@ export const testimonials4 = [
 
 export const testimonialItems = [
   {
-    imageSrc: "/assets/images/demo-corporate/testimonial-1.jpg",
+    imageSrc: "/assets/images/client-stories/adam-peterson.jpg",
     quote:
       "The level of precision Savile Services brings to our strata grounds is unmatched. They don't just mow; they proactively manage our irrigation and plant health, catching issues before they become expensive repairs. Their team is professional, discreet, and consistently reliable.",
     author: "Adam Peterson",
     position: "Strata Council President",
   },
   {
-    imageSrc: "/assets/images/demo-corporate/testimonial-2.jpg",
+    imageSrc: "/assets/images/client-stories/jordan-harvey.jpg",
     quote:
       "Our estate's hardscape project was executed with incredible technical skill. The retaining walls and stonework are not only beautiful but engineered to last. Everything was thought out with talent—from the drainage systems to the final lighting accents. Truly premium work.",
     author: "Jordan Harvey",

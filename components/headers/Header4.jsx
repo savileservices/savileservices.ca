@@ -54,22 +54,22 @@ export default function Header4({ links }) {
           {/* Social Links */}
           <li>
             <a href="#" className="no-hover opacity-1 pe-1">
-              <span className="mn-soc-link mn-soc-link-color" title="Facebook">
-                <i className="fa-facebook-f" />
+              <span className="mn-soc-link mn-soc-link-color" title="Google">
+                <i className="fa-google" />
               </span>
-              <span className="mobile-nav-display-i">Facebook</span>
+              <span className="mobile-nav-display-i">Google</span>
             </a>
             <a href="#" className="no-hover opacity-1 pe-1">
-              <span className="mn-soc-link mn-soc-link-color" title="LinkedIn">
-                <i className="fa-linkedin-in" />
+              <span className="mn-soc-link mn-soc-link-color" title="Instagram">
+                <i className="fa-instagram" />
               </span>
-              <span className="mobile-nav-display-i">LinkedIn</span>
+              <span className="mobile-nav-display-i">Instagram</span>
             </a>
             <a href="#" className="no-hover opacity-1">
-              <span className="mn-soc-link mn-soc-link-color" title="Youtube">
-                <i className="fa-youtube" />
+              <span className="mn-soc-link mn-soc-link-color" title="Yelp">
+                <i className="fa-yelp" />
               </span>
-              <span className="mobile-nav-display-i">Youtube</span>
+              <span className="mobile-nav-display-i">Yelp</span>
             </a>
           </li>
           {/* End Social Links  */}

@@ -44,12 +44,12 @@ export default function Testimonials() {
                 <p className="mb-0">{elm.text}</p>
                 <footer className="testimonials-3-author pt-30 clearfix">
                   <div className="testimonials-3-author-img float-start">
-                    <Image
+                    {/* <Image
                       width={44}
                       height={44}
                       src={elm.imgSrc}
                       alt="Image description is here"
-                    />
+                    /> */}
                   </div>
                   <div className="overflow-hidden">
                     {elm.author}

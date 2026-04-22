@@ -180,9 +180,9 @@ export default function CorporateTeamPage() {
               </section>
               {/* End Testimonials Section */}
               {/* Logotypes Section*/}
-              <section className="page-section">
+              {/* <section className="page-section">
                 <Brands />
-              </section>
+              </section> */}
               {/* End Logotypes Section*/}
               {/* Divider */}
               <hr className="mt-0 mb-0" />

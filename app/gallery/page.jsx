@@ -67,10 +67,10 @@ export default function CorporateGalleryPage() {
             <section className="page-section pt-0 pb-0" id="home">
               <ParallaxContainer
                 className="page-section bg-gray-light-1 bg-light-alpha-90 parallax-5"
-                style={{
-                  backgroundImage:
-                    "url(/assets/images/full-width-images/page-title-bg-5.jpg)",
-                }}
+                // style={{
+                //   backgroundImage:
+                //     "url(/assets/images/gallery/cover.jpg)",
+                // }}
               >
                 <>
                   <div className="position-absolute top-0 bottom-0 start-0 end-0 bg-gradient-white" />
@@ -107,7 +107,7 @@ export default function CorporateGalleryPage() {
               <>
                 {/* Section */}
                 <section className="page-section pt-0">
-                  <Gallery1 itemsLength={8} parantClass="col-md-6" />
+                  <Gallery1 itemsLength={12} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
                 {/* Divider */}
