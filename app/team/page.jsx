@@ -3,7 +3,6 @@ import React from "react";
 
 import { teamMembers } from "@/data/team";
 import Testimonials from "@/components/homes/home-10/Testimonials";
-import Brands from "@/components/homes/home-1/Brands";
 
 import AnimatedText from "@/components/common/AnimatedText";
 import Footer4 from "@/components/footers/Footer4";
@@ -16,7 +15,7 @@ export const metadata = {
   title:
     "Savile Services || Meet Our Team",
   description:
-    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
+    "Strata, Residential, Commercial & Hardscape Services in Greater Vancouver, Lower Mainland and Fraser Valley",
 };
 
 export default function CorporateTeamPage() {
@@ -91,15 +90,15 @@ export default function CorporateTeamPage() {
                     {/* End Decorative Waves */}
                     {/* Team item */}
                     {teamMembers.map((elm, i) => (
-                      <div key={i} className="col-sm-6 col-lg-3 mt-40">
+                      <div key={i} className="col-sm-6 col-lg-3 mt-40"><br/><br/>
                         <div className="team-item">
                           <div className="team-item-image">
-                            <Image
+                            {/* <Image
                               src={elm.image}
                               width={600}
                               height={800}
                               alt="Image Description"
-                            />
+                            /> */}
                             <div className="team-item-detail">
                               <div className="team-social-links">
                                 {elm.socials.map((elm, i) => (
@@ -119,8 +118,9 @@ export default function CorporateTeamPage() {
                             </div>
                           </div>
                           <div className="team-item-descr">
-                            <div className="team-item-name">{elm.name}</div>
-                            <div className="team-item-role">{elm.role}</div>
+                            <div className="team-item-name"><h3 className="hs-title-3 mb-0">{elm.name}</h3></div><br/>
+                            <div className="team-item-role"><strong>{elm.role}</strong></div><br/>
+                            <div className="team-item-description">{elm.description}</div>
                           </div>
                         </div>
                       </div>

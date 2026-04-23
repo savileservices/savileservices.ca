@@ -10,7 +10,7 @@ export default function Hero1() {
           <div className="col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-center order-first order-lg-last mb-md-60">
             <div className="w-100 text-center text-lg-start">
               <h1 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp">
-                A Landscape Management Company
+                Savile Services: A Landscape Management Company
               </h1>
               <p
                 className="hs-descr mb-50 mb-sm-40 wow fadeInUp"

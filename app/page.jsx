@@ -8,7 +8,7 @@ export const metadata = {
   title:
     "Savile Services || Home",
   description:
-    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
+    "Strata, Residential, Commercial & Hardscape Services in Greater Vancouver, Lower Mainland and Fraser Valley",
 };
 
 export default function Home4MainDemoMultiPage() {

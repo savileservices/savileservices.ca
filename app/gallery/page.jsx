@@ -23,7 +23,7 @@ export const metadata = {
   title:
     "Savile Services || Project Gallery",
   description:
-    "Strata, Commercial & Hardscape Services Lower Mainland and Fraser Valley",
+    "Strata, Residential, Commercial & Hardscape Services in Greater Vancouver, Lower Mainland and Fraser Valley",
 };
 
 export default function CorporateGalleryPage() {
@@ -106,18 +106,18 @@ export default function CorporateGalleryPage() {
             <>
               <>
                 {/* Section */}
-                <div className="col-md-8 offset-md-2">
-                  <h3 className="hs-title-3 mb-0">
-                    <span
-                      className="wow charsAnimIn"
-                      data-splitting="chars"
-                    >
-                      <AnimatedText text="Concrete Pad" />
-                    </span>
-                  </h3>
-                  <p></p>
-                </div>
                 <section className="page-section pt-0">
+                  <div className="col-md-8 offset-md-2">
+                    <h3 className="hs-title-3 mb-0" align="center">
+                      <span
+                        className="wow charsAnimIn"
+                        data-splitting="chars"
+                      >
+                        <AnimatedText text="Concrete Pad" />
+                      </span>
+                    </h3>
+                    <p></p>
+                  </div>
                   <GalleryConcretePad itemsLength={2} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
@@ -125,18 +125,18 @@ export default function CorporateGalleryPage() {
               <br/><br/>
               <>
                 {/* Section */}
-                <div className="col-md-8 offset-md-2">
-                  <h3 className="hs-title-3 mb-0">
-                    <span
-                      className="wow charsAnimIn"
-                      data-splitting="chars"
-                    >
-                      <AnimatedText text="Hedge Installation" />
-                    </span>
-                  </h3>
-                  <p></p>
-                </div>
                 <section className="page-section pt-0">
+                  <div className="col-md-8 offset-md-2">
+                    <h3 className="hs-title-3 mb-0" align="center">
+                      <span
+                        className="wow charsAnimIn"
+                        data-splitting="chars"
+                      >
+                        <AnimatedText text="Hedge Installation" />
+                      </span>
+                    </h3>
+                    <p></p>
+                  </div>
                   <GalleryHedgeInstallation itemsLength={2} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
@@ -144,18 +144,18 @@ export default function CorporateGalleryPage() {
               <br/><br/>
               <>
                 {/* Section */}
-                <div className="col-md-8 offset-md-2">
-                  <h3 className="hs-title-3 mb-0">
-                    <span
-                      className="wow charsAnimIn"
-                      data-splitting="chars"
-                    >
-                      <AnimatedText text="Hedge Trimming" />
-                    </span>
-                  </h3>
-                  <p></p>
-                </div>
                 <section className="page-section pt-0">
+                  <div className="col-md-8 offset-md-2">
+                    <h3 className="hs-title-3 mb-0" align="center">
+                      <span
+                        className="wow charsAnimIn"
+                        data-splitting="chars"
+                      >
+                        <AnimatedText text="Hedge Trimming" />
+                      </span>
+                    </h3>
+                    <p></p>
+                  </div>
                   <GalleryHedgeTrimming itemsLength={5} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
@@ -163,18 +163,18 @@ export default function CorporateGalleryPage() {
               <br/><br/>
               <>
                 {/* Section */}
-                <div className="col-md-8 offset-md-2">
-                  <h3 className="hs-title-3 mb-0">
-                    <span
-                      className="wow charsAnimIn"
-                      data-splitting="chars"
-                    >
-                      <AnimatedText text="Lawn Mowing" />
-                    </span>
-                  </h3>
-                  <p></p>
-                </div>
                 <section className="page-section pt-0">
+                  <div className="col-md-8 offset-md-2">
+                    <h3 className="hs-title-3 mb-0" align="center">
+                      <span
+                        className="wow charsAnimIn"
+                        data-splitting="chars"
+                      >
+                        <AnimatedText text="Lawn Mowing" />
+                      </span>
+                    </h3>
+                    <p></p>
+                  </div>
                   <GalleryLawnMowing itemsLength={2} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
@@ -182,18 +182,18 @@ export default function CorporateGalleryPage() {
               <br/><br/>
               <>
                 {/* Section */}
-                <div className="col-md-8 offset-md-2">
-                  <h3 className="hs-title-3 mb-0">
-                    <span
-                      className="wow charsAnimIn"
-                      data-splitting="chars"
-                    >
-                      <AnimatedText text="Lawn Renovation" />
-                    </span>
-                  </h3>
-                  <p></p>
-                </div>
                 <section className="page-section pt-0">
+                  <div className="col-md-8 offset-md-2">
+                    <h3 className="hs-title-3 mb-0" align="center">
+                      <span
+                        className="wow charsAnimIn"
+                        data-splitting="chars"
+                      >
+                        <AnimatedText text="Lawn Renovation" />
+                      </span>
+                    </h3>
+                    <p></p>
+                  </div>
                   <GalleryLawnRenovation itemsLength={2} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
@@ -201,18 +201,18 @@ export default function CorporateGalleryPage() {
               <br/><br/>
               <>
                 {/* Section */}
-                <div className="col-md-8 offset-md-2">
-                  <h3 className="hs-title-3 mb-0">
-                    <span
-                      className="wow charsAnimIn"
-                      data-splitting="chars"
-                    >
-                      <AnimatedText text="Patio Extension" />
-                    </span>
-                  </h3>
-                  <p></p>
-                </div>
                 <section className="page-section pt-0">
+                  <div className="col-md-8 offset-md-2">
+                    <h3 className="hs-title-3 mb-0" align="center">
+                      <span
+                        className="wow charsAnimIn"
+                        data-splitting="chars"
+                      >
+                        <AnimatedText text="Patio Extension" />
+                      </span>
+                    </h3>
+                    <p></p>
+                  </div>
                   <GalleryPatioExtension itemsLength={2} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
@@ -220,18 +220,18 @@ export default function CorporateGalleryPage() {
               <br/><br/>
               <>
                 {/* Section */}
-                <div className="col-md-8 offset-md-2">
-                  <h3 className="hs-title-3 mb-0">
-                    <span
-                      className="wow charsAnimIn"
-                      data-splitting="chars"
-                    >
-                      <AnimatedText text="Yard Cleanup" />
-                    </span>
-                  </h3>
-                  <p></p>
-                </div>
                 <section className="page-section pt-0">
+                  <div className="col-md-8 offset-md-2">
+                    <h3 className="hs-title-3 mb-0" align="center">
+                      <span
+                        className="wow charsAnimIn"
+                        data-splitting="chars"
+                      >
+                        <AnimatedText text="Yard Cleanup" />
+                      </span>
+                    </h3>
+                    <p></p>
+                  </div>
                   <GalleryYardCleanup itemsLength={2} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
@@ -239,18 +239,18 @@ export default function CorporateGalleryPage() {
               <br/><br/>
               <>
                 {/* Section */}
-                <div className="col-md-8 offset-md-2">
-                  <h3 className="hs-title-3 mb-0">
-                    <span
-                      className="wow charsAnimIn"
-                      data-splitting="chars"
-                    >
-                      <AnimatedText text="Blue Bird Project" />
-                    </span>
-                  </h3>
-                  <p></p>
-                </div>
                 <section className="page-section pt-0">
+                  <div className="col-md-8 offset-md-2">
+                    <h3 className="hs-title-3 mb-0" align="center">
+                      <span
+                        className="wow charsAnimIn"
+                        data-splitting="chars"
+                      >
+                        <AnimatedText text="Full Landscape Installation" />
+                      </span>
+                    </h3>
+                    <p></p>
+                  </div>
                   <GalleryBlueBird itemsLength={6} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
