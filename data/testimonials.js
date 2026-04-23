@@ -127,7 +127,7 @@ export const testimonialItems = [
     quote:
       "Our estate's hardscape project was executed with incredible technical skill. The retaining walls and stonework are not only beautiful but engineered to last. Everything was thought out with talent—from the drainage systems to the final lighting accents. Truly premium work.",
     author: "Jordan Harvey",
-    position: "Luxury Homeowner",
+    position: "Residential Homeowner",
   },
 ];
 
