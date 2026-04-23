@@ -133,9 +133,6 @@ export default function Home4({ onePage = false, dark = false }) {
               </div>
             </div>
           </div>
-          {/* Logotypes */}
-          <Cta />
-          {/* End Logotypes */}
         </div>{" "}
       </section>
       <section

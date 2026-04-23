@@ -10,7 +10,7 @@ import Image from "next/image";
 
 import React from "react";
 import { menuItemsDark } from "@/data/menu";
-import Gallery1 from "@/components/gallery/Gallery1";
+import Gallery1 from "@/components/gallery/GalleryBlueBird";
 
 export const metadata = {
   title:

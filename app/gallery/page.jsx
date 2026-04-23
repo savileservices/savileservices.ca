@@ -2,7 +2,15 @@ import ParallaxContainer from "@/components/common/ParallaxContainer";
 
 import React from "react";
 
-import Gallery1 from "@/components/gallery/Gallery1";
+import GalleryBlueBird from "@/components/gallery/GalleryBlueBird";
+import GalleryConcretePad from "@/components/gallery/GalleryConcretePad";
+import GalleryHedgeInstallation from "@/components/gallery/GalleryHedgeInstallation";
+import GalleryHedgeTrimming from "@/components/gallery/GalleryHedgeTrimming";
+import GalleryLawnMowing from "@/components/gallery/GalleryLawnMowing";
+import GalleryLawnRenovation from "@/components/gallery/GalleryLawnRenovation";
+import GalleryPatioExtension from "@/components/gallery/GalleryPatioExtension";
+import GalleryYardCleanup from "@/components/gallery/GalleryYardCleanup";
+
 
 import AnimatedText from "@/components/common/AnimatedText";
 import Footer4 from "@/components/footers/Footer4";
@@ -80,14 +88,6 @@ export default function CorporateGalleryPage() {
                       <div className="row">
                         {/* Page Title */}
                         <div className="col-md-8 offset-md-2">
-                          <h1 className="hs-title-1 mb-0">
-                            <span
-                              className="wow charsAnimIn"
-                              data-splitting="chars"
-                            >
-                              <AnimatedText text="Before & After" />
-                            </span>
-                          </h1>
                           <p className="text-gray mb-0">
                             Explore the technical precision and aesthetic transformations our team 
                             delivers. From structural hardscape builds to comprehensive strata 
@@ -106,15 +106,155 @@ export default function CorporateGalleryPage() {
             <>
               <>
                 {/* Section */}
+                <div className="col-md-8 offset-md-2">
+                  <h3 className="hs-title-3 mb-0">
+                    <span
+                      className="wow charsAnimIn"
+                      data-splitting="chars"
+                    >
+                      <AnimatedText text="Concrete Pad" />
+                    </span>
+                  </h3>
+                  <p></p>
+                </div>
                 <section className="page-section pt-0">
-                  <Gallery1 itemsLength={12} parantClass="col-md-6" />
+                  <GalleryConcretePad itemsLength={2} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
-                {/* Divider */}
-                <hr className="mt-0 mb-0" />
               </>
-
-              {/* End Divider */}
+              <br/><br/>
+              <>
+                {/* Section */}
+                <div className="col-md-8 offset-md-2">
+                  <h3 className="hs-title-3 mb-0">
+                    <span
+                      className="wow charsAnimIn"
+                      data-splitting="chars"
+                    >
+                      <AnimatedText text="Hedge Installation" />
+                    </span>
+                  </h3>
+                  <p></p>
+                </div>
+                <section className="page-section pt-0">
+                  <GalleryHedgeInstallation itemsLength={2} parantClass="col-md-6" />
+                </section>
+                {/* End Section */}
+              </>
+              <br/><br/>
+              <>
+                {/* Section */}
+                <div className="col-md-8 offset-md-2">
+                  <h3 className="hs-title-3 mb-0">
+                    <span
+                      className="wow charsAnimIn"
+                      data-splitting="chars"
+                    >
+                      <AnimatedText text="Hedge Trimming" />
+                    </span>
+                  </h3>
+                  <p></p>
+                </div>
+                <section className="page-section pt-0">
+                  <GalleryHedgeTrimming itemsLength={5} parantClass="col-md-6" />
+                </section>
+                {/* End Section */}
+              </>
+              <br/><br/>
+              <>
+                {/* Section */}
+                <div className="col-md-8 offset-md-2">
+                  <h3 className="hs-title-3 mb-0">
+                    <span
+                      className="wow charsAnimIn"
+                      data-splitting="chars"
+                    >
+                      <AnimatedText text="Lawn Mowing" />
+                    </span>
+                  </h3>
+                  <p></p>
+                </div>
+                <section className="page-section pt-0">
+                  <GalleryLawnMowing itemsLength={2} parantClass="col-md-6" />
+                </section>
+                {/* End Section */}
+              </>
+              <br/><br/>
+              <>
+                {/* Section */}
+                <div className="col-md-8 offset-md-2">
+                  <h3 className="hs-title-3 mb-0">
+                    <span
+                      className="wow charsAnimIn"
+                      data-splitting="chars"
+                    >
+                      <AnimatedText text="Lawn Renovation" />
+                    </span>
+                  </h3>
+                  <p></p>
+                </div>
+                <section className="page-section pt-0">
+                  <GalleryLawnRenovation itemsLength={2} parantClass="col-md-6" />
+                </section>
+                {/* End Section */}
+              </>
+              <br/><br/>
+              <>
+                {/* Section */}
+                <div className="col-md-8 offset-md-2">
+                  <h3 className="hs-title-3 mb-0">
+                    <span
+                      className="wow charsAnimIn"
+                      data-splitting="chars"
+                    >
+                      <AnimatedText text="Patio Extension" />
+                    </span>
+                  </h3>
+                  <p></p>
+                </div>
+                <section className="page-section pt-0">
+                  <GalleryPatioExtension itemsLength={2} parantClass="col-md-6" />
+                </section>
+                {/* End Section */}
+              </>
+              <br/><br/>
+              <>
+                {/* Section */}
+                <div className="col-md-8 offset-md-2">
+                  <h3 className="hs-title-3 mb-0">
+                    <span
+                      className="wow charsAnimIn"
+                      data-splitting="chars"
+                    >
+                      <AnimatedText text="Yard Cleanup" />
+                    </span>
+                  </h3>
+                  <p></p>
+                </div>
+                <section className="page-section pt-0">
+                  <GalleryYardCleanup itemsLength={2} parantClass="col-md-6" />
+                </section>
+                {/* End Section */}
+              </>
+              <br/><br/>
+              <>
+                {/* Section */}
+                <div className="col-md-8 offset-md-2">
+                  <h3 className="hs-title-3 mb-0">
+                    <span
+                      className="wow charsAnimIn"
+                      data-splitting="chars"
+                    >
+                      <AnimatedText text="Blue Bird Project" />
+                    </span>
+                  </h3>
+                  <p></p>
+                </div>
+                <section className="page-section pt-0">
+                  <GalleryBlueBird itemsLength={6} parantClass="col-md-6" />
+                </section>
+                {/* End Section */}
+              </>
             </>
           </main>
           <footer className="footer-2 pb-50">

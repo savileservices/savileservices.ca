@@ -8,7 +8,7 @@ import Image from "next/image";
 
 import React from "react";
 import { menuItems } from "@/data/menu";
-import Gallery1 from "@/components/gallery/Gallery1";
+import Gallery1 from "@/components/gallery/GalleryBlueBird";
 import Account from "@/components/others/Account";
 
 export const metadata = {

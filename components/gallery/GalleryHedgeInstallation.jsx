@@ -1,9 +1,10 @@
 "use client";
-import { photoItems } from "@/data/gallery";
+// import { photoItems } from "@/data/gallery";
+import { hedgeInstallationPhotoItems } from "@/data/gallery";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import Image from "next/image";
-export default function Gallery1({
-  itemsLength = 12,
+export default function GalleryHedgeInstallation({
+  itemsLength = 2,
   parantClass = "col-md-3",
 }) {
   return (
@@ -12,7 +13,7 @@ export default function Gallery1({
       <Gallery>
         <div className="row mt-n30">
           {/* Photo Item */}
-          {photoItems.slice(0, itemsLength).map((elm, i) => (
+          {hedgeInstallationPhotoItems.slice(0, itemsLength).map((elm, i) => (
             <div key={i} className={parantClass}>
               <Item
                 original={elm.src}
@@ -43,6 +44,9 @@ export default function Gallery1({
           {/* End Photo Item */}
         </div>
       </Gallery>
+      {/* Divider */}
+      <hr className="mt-20 mb-0 mb-xs-40" />
+      {/* End Divider */}
       {/* End Photo Grid */}
     </div>
   );
