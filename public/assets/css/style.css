@@ -8878,7 +8878,7 @@ a.portfolio-5-link:hover .portfolio-5-title span {
 }
 .logo-grid-img {
   margin: 30px 15px 0 15px;
-  opacity: 0.35;
+  opacity: 0.75;
   transition: var(--transition-default);
 }
 .logo-grid-img:hover {

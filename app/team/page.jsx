@@ -3,6 +3,7 @@ import React from "react";
 
 import { teamMembers } from "@/data/team";
 import Testimonials from "@/components/homes/home-10/Testimonials";
+import Brands from "@/components/homes/home-1/Brands";
 
 import AnimatedText from "@/components/common/AnimatedText";
 import Footer4 from "@/components/footers/Footer4";
@@ -67,7 +68,7 @@ export default function CorporateTeamPage() {
             <section className="page-section pt-0 pb-0" id="home">
             </section>
             <>
-              <section className="page-section pt-0" id="team">
+              <section className="page-section pt-0 mt-100" id="team">
                 <div className="container">
                   <div
                     className="row position-relative mt-n40 mb-80 mb-sm-40 wow fadeInUp"
@@ -90,7 +91,7 @@ export default function CorporateTeamPage() {
                     {/* End Decorative Waves */}
                     {/* Team item */}
                     {teamMembers.map((elm, i) => (
-                      <div key={i} className="col-sm-6 col-lg-3 mt-40"><br/><br/>
+                      <div key={i} className="mt-0"><br/><br/>
                         <div className="team-item">
                           <div className="team-item-image">
                             {/* <Image
@@ -180,9 +181,9 @@ export default function CorporateTeamPage() {
               </section>
               {/* End Testimonials Section */}
               {/* Logotypes Section*/}
-              {/* <section className="page-section">
+              <section className="page-section">
                 <Brands />
-              </section> */}
+              </section>
               {/* End Logotypes Section*/}
               {/* Divider */}
               <hr className="mt-0 mb-0" />

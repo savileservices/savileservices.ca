@@ -7,7 +7,7 @@ export default function Cta() {
       <div className="row">
         <div className="col-md-6">
           <h2 className="section-title-tiny opacity-09 mb-30">
-            Trusted by leading companies
+            Residential, Strata & Commercial Clients We Serve
           </h2>
           <div className="logo-grid">
             {clients.map((logo) => (

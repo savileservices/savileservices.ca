@@ -96,21 +96,21 @@ export const testimonials4 = [
     delay: "0s",
     stars: 5,
     text: "“Incredible attention to detail. Our lawn edges have never looked so sharp.”",
-    caption: "Residential Client Review",
+    caption: "— Sarah Thompson, Residential Client",
   },
   {
     id: 2,
     delay: "0.15s",
-    stars: 4.5,
+    stars: 5,
     text: "“Reliable and proactive. They handled our strata drainage issues with real expertise.”",
-    caption: "Strata Council Review",
+    caption: "— Raj Mehta, Strata Council Member",
   },
   {
     id: 3,
     delay: "0.3s",
     stars: 5,
     text: "“Savile Services truly lives up to the precision in their name. Exceptional work.”",
-    caption: "Estate Management Review",
+    caption: "— Carlos Alvarez, Estate Manager",
   },
 ];
 

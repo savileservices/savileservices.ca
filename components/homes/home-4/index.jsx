@@ -5,6 +5,7 @@ import Service from "./Service";
 import Portfolio from "./Portfolio";
 import Steps from "./Steps";
 import Testimonials from "./Testimonials";
+import Brands from "@/components/homes/home-1/Brands";
 import Cta2 from "./Cta2";
 import Blog from "../home-4/Blog";
 import NewsLetter from "./NewsLetter";
@@ -133,8 +134,16 @@ export default function Home4({ onePage = false, dark = false }) {
               </div>
             </div>
           </div>
+          {/* Logotypes */}
+          {/* <Cta /> */}
+          {/* End Logotypes */}
         </div>{" "}
       </section>
+      {/* Logotypes Section*/}
+      <section className="page-section">
+        <Brands />
+      </section>
+      {/* End Logotypes Section*/}
       <section
         className={`page-section pb-0 scrollSpysection   ${
           dark ? "bg-dark-1 light-content" : ""

@@ -65,7 +65,7 @@ export const faqDataMain = [
     id: 6,
     question: "How long does it take to transition to Savile Services?",
     answer:
-      "We can typically onboard a new strata or commercial property within 7 to 14 days. This includes a hand-over period where we review previous site issues and establish our baseline standards for your landscape.",
+      "We can typically onboard a new strata or commercial property within a month. This includes a hand-over period where we review previous site issues and establish our baseline standards for your landscape.",
   },
 
   /* --- SECTION: CUSTOMER REQUIREMENTS --- */
@@ -79,7 +79,7 @@ export const faqDataMain = [
     id: 8,
     question: "Do I need to be present during service visits?",
     answer:
-      "Not at all. Most of our strata and commercial clients are managed remotely. Our team is fully autonomous and trained to handle the site's routine needs. We provide digital reporting so you stay informed without needing to be on-site.",
+      "Not at all. Most of our clients are managed remotely. Our team is fully autonomous and trained to handle the site's routine needs. We provide digital reporting so you stay informed without needing to be on-site.",
   },
 
   /* --- SECTION: AFTER THE JOB --- */
@@ -93,7 +93,7 @@ export const faqDataMain = [
     id: 10,
     question: "How do you handle feedback or additional requests?",
     answer:
-      "We view feedback as a tool for precision. If there is a specific area that needs attention or an additional task requested, property managers can contact us directly. We pride ourselves on being responsive and standing behind every cut and stone we place.",
+      "We view feedback as a tool for precision. If there is a specific area that needs attention or an additional task requested, property managers can contact us directly. We pride ourselves on being responsive and finding a solution.",
   },
 ];
 
