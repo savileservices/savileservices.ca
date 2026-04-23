@@ -118,7 +118,7 @@ export default function CorporateGalleryPage() {
                     </h3>
                     <p></p>
                   </div>
-                  <GalleryConcretePad itemsLength={2} parantClass="col-md-6" />
+                  <GalleryConcretePad itemsLength={3} parantClass="col-md-6" />
                 </section>
                 {/* End Section */}
               </>

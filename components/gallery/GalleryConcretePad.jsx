@@ -4,7 +4,7 @@ import { concretePadPhotoItems } from "@/data/gallery";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import Image from "next/image";
 export default function GalleryConcretePad({
-  itemsLength = 2,
+  itemsLength = 3,
   parantClass = "col-md-3",
 }) {
   return (
