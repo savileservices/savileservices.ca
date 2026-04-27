@@ -125,7 +125,7 @@ export const testimonialItems = [
   {
     imageSrc: "/assets/images/client-stories/jordan-harvey.jpg",
     quote:
-      "Our estate's hardscape project was executed with incredible technical skill. The retaining walls and stonework are not only beautiful but engineered to last. Everything was thought out with talent—from the drainage systems to the final lighting accents. Truly premium work.",
+      "Our project wasn’t easy due to the tight access and large boulders made it difficult, and no one else was willing to take it on. Savile’s team found a smart solution and delivered everything at a fair price. The putting green turned out amazing, and it’s been such a joy seeing our grandkids enjoy it.",
     author: "Jordan Harvey",
     position: "Residential Homeowner",
   },
