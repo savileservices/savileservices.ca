@@ -24,7 +24,7 @@ export const contactItems = [
     title: "Phone",
     text: "+1 (604) 396 5472",
     link: {
-      url: "tel:+61383767284",
+      url: "tel:+16043965472",
       text: "Call now",
     },
   },
